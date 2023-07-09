@@ -1,0 +1,57 @@
+.container {
+  padding: 20px;
+  margin: 35px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: rgba(103, 199, 243, 0.733);
+}
+
+i:hover {
+  font-size: 20px;
+}
+h1 {
+  color: #f5f4a9;
+  padding: 10px;
+  margin-top: 45px;
+  margin-bottom: 10px;
+  font-weight: bold;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+  color: #f5f4a9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.right {
+  color: #f5f4a9;
+  padding: 20px;
+  margin-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.days {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f5f4a9;
+}
+.tempsButton {
+  font-size: 12.5px;
+  border: 1px #f5f4a9;
+  top: -10px;
+  background-color: #f5f4a9;
+  position: relative;
+}
+
+#temp {
+  font-size: 40px;
+  color: #f5f4a9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intell {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.location {
+  max-width: 100%;
+  display: block;
+  margin: 100px auto;
+  margin-top: 0px;
+}

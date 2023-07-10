@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -23,12 +23,14 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <title>Weather App/Vanilla</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="src/styles.css" />
 
     <script></script>
   </head>
   <body>
     <div class="container">
+        <button class="location" id="current-location-button"> Current Location</button>
+    <form id="search">
       <form>
         <div class="intell">
           <input
@@ -58,7 +60,7 @@
               <div class="right">
                 <p>
                   ⛅ Partly Cloudy <span id="weatherNow"> </span>
-                  <br /> 
+                  <br />
                   Precipitation: 0% <span id="rain"></span>
                   <br />
                   Humidity: 77% <span id="humid"></span>
@@ -108,8 +110,7 @@
         </div>
       </form>
     </div>
-    <button class="location">Current Location</button>
-    <form id="search">
-    <script src="index.js"></script>
+
+    <script src="src/index.js"></script>
   </body>
 </html>
